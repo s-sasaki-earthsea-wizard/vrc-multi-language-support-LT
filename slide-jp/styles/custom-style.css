@@ -8,7 +8,7 @@
 .caption {
     font-size: 0.7em;
     color: #666;
-    margin-top: -45px;
+    margin-top: -30px;
 }
 
 /* 2カラムレイアウトの調整 */
@@ -19,6 +19,7 @@
     margin-left: -2%;
     margin-right: -2%;
     gap: 45px;
+    font-size: 0.9em;
 }
   
 .col {
@@ -31,7 +32,8 @@
     flex: 1;
     padding: 10px;
     text-align: left;
-    margin-left: -5%;
+    margin-left: -10%;
+    margin-right: -5%;
     font-size: 0.9em;
 }
 
@@ -39,7 +41,8 @@
     flex: 1;
     padding: 10px;
     text-align: left;
-    margin-right: -5%;
+    margin-left: -5%;
+    margin-right: -20%;
     font-size: 0.9em;
 }
 
@@ -189,11 +192,11 @@
 
 .simple-box {
     background-color: #f8f9fa;
-    width: 110%;
+    width: 112%;
     padding: 10px;
     padding-left: 10px;
     margin-left: -5%;
-    padding-right: 10px;
+    padding-right: 20px;
     margin-right: 0%;
     gap: 15px;
     text-align: left;
